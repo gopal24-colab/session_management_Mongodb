@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
+  <body id="signup">
+    <main class="container">
+      <div class="back"></div>
+      <div class="brand">
+        <div class="logo">
+          <img
+            height="64"
+            src="https://i.imgur.com/E3uTxXY.png"
+            alt="Panda Logo" />
+          <h1>
+            <span class="name"><span>Save</span><span>Panda</span></span
+            >Foundation
+          </h1>
+        </div>
+        <span class="copyright"
+          >Photo by
+          <a
+            href="https://unsplash.com/@filipz"
+            target="_blank"
+            title="Photographer"
+            >Filip Zrnzević</a
+          >
+          on
+          <a
+            href="https://unsplash.com/photos/QsWG0kjPQRY"
+            target="_blank"
+            title="Background Photo"
+            >Unsplash</a
+          ></span
+        >
+      </div>
+      <div class="formWrapper">
+        <div class="form">
+          <h2>New member card</h2>
+          <form id="form" method="get" action="#">
+            <div class="inputWrapper">
+              <input type="text" name="first" id="first" required />
+              <label for="first">First Name</label>
+            </div>
+            <div class="inputWrapper">
+              <input type="text" name="last" id="last" required />
+              <label for="last">Last Name</label>
+            </div>
+            <div class="inputWrapper">
+              <input type="email" name="email" id="email" required />
+              <label for="email">Email</label>
+            </div>
+            <div class="inputWrapper">
+              <input type="tel" name="phone" id="phone" required />
+              <label for="phone">Phone Number</label>
+            </div>
+            <div class="inputWrapper">
+              <input type="password" name="password" id="password" required />
+              <label for="password">Password</label>
+            </div>
+            <div class="inputWrapper">
+              <input
+                type="password"
+                name="c_password"
+                id="c_password"
+                required />
+              <label for="c_password">Confirm Password</label>
+            </div>
+          </form>
+          <input
+            form="form"
+            type="submit"
+            name="register"
+            id="register"
+            value="REGISTER" />
+          <span id="login"
+            >Already a member? <a href="#" title="Login">Log in!</a></span
+          >
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
